@@ -1,0 +1,229 @@
+.bg-opacity-custom {
+  background: rgba(33, 37, 41, 0.85);
+  position: relative;
+  z-index: 1050;
+}
+.navbar-brand .brand-normal {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.navbar-brand .brand-showroom {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffc107;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.nav-link.nav-hover:hover, .nav-link.nav-hover:focus {
+  color: #ffc107 !important;
+}
+.dropdown-menu {
+  background: rgba(33, 37, 41, 0.97);
+  border: none;
+}
+.dropdown-item {
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.dropdown-item:hover {
+  background: #ffc107;
+  color: #212529;
+}
+
+/* ............................BANNER.............................. */
+
+.banner-section {
+  background: linear-gradient(90deg, rgba(255,193,7,0.18) 0%, rgba(33,37,41,0.10) 100%);
+  min-height: 600px;         /* Increased from 420px */
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;         /* Increased from 4rem */
+  padding-bottom: 6rem;
+}
+
+
+.banner-section .brand-showroom {
+  color: #ffc107;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.banner-img {
+  max-width: 400px;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
+
+.banner-cta {
+  font-weight: 600;
+  border-radius: 2rem;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(33,37,41,0.08);
+}
+
+.banner-cta:hover {
+  background: #e0a800;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(33,37,41,0.18);
+}
+
+@media (max-width: 767.98px) {
+  .banner-img {
+    height: 180px;
+    max-width: 90vw;
+    margin-top: 2rem;
+  }
+  .banner-section {
+    min-height: 320px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+
+/* .....................INVENTORY.............................. */
+
+.inventory-title {
+  margin-top: 110px;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #212529;
+  text-align: center;
+}
+
+
+
+.inventory-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.inventory-row {
+  margin-bottom: 2rem;
+}
+
+.card.inventory-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 16px rgba(33,37,41,0.08);
+  background: #fff;
+}
+
+.card.inventory-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(33,37,41,0.18);
+}
+
+.card.inventory-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card.inventory-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.card.inventory-card .card-text {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.card.inventory-card .btn-warning {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.card.inventory-card .btn-warning:hover {
+  background: #e0a800;
+  color: #fff;
+}
+
+.view-more-btn {
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.6rem 2.5rem;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(33,37,41,0.08);
+}
+
+
+
+/* ----------- BOOK TEST RIDE PAGE STYLES ----------- */
+
+.book-ride-container {
+  margin-top: 120px;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px rgba(33,37,41,0.10);
+  padding: 2.5rem 2rem;
+}
+
+@media (max-width: 767.98px) {
+  .book-ride-container {
+    padding: 1.5rem 0.5rem;
+    margin-top: 90px;
+  }
+}
+
+.book-ride-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #212529;
+  margin-bottom: 1.5rem;
+}
+
+.book-ride-form .form-label {
+  font-weight: 500;
+  color: #212529;
+}
+
+.book-ride-form .form-control {
+  border-radius: 0.7rem;
+  border: 1px solid #ffc10733;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+
+.book-ride-form .form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.15rem rgba(255,193,7,0.15);
+}
+
+.book-ride-form .btn-warning {
+  font-weight: 600;
+  border-radius: 2rem;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(33,37,41,0.08);
+}
+
+.book-ride-form .btn-warning:hover {
+  background: #e0a800;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(33,37,41,0.18);
+}

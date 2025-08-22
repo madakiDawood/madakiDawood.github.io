@@ -15,7 +15,7 @@
           const card = `
             <div class="col-md-4">
               <div class="card h-100 shadow-sm border-0">
-                <img src="${article.urlToImage || 'https://via.placeholder.com/400x250'}" 
+                <img src="${article.urlToImage || "https://placehold.co/400x250"}" 
                      class="card-img-top" alt="News Image">
                 <div class="card-body">
                   <h5 class="card-title">${article.title}</h5>

@@ -53,7 +53,7 @@ git clone https://github.com/madakiDawood/madakiDawood.github.io.git
 3. 🎉 Visit the browser
 
 
-📸 Screenshots
+4. 📸 Screenshots
    <img width="500" height="400" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/5dbebc0b-60dc-4cbc-856d-ab6c7ed8060c" />
    <img width="500" height="400" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/e773067c-5e5f-4e3a-9580-dc30294621a5" />
 

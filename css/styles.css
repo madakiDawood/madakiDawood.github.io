@@ -1,3 +1,9 @@
+body {
+      background-color: #f8f9fa;
+}
+
+
+/* ----------- NAVBAR STYLES ----------- */
 .bg-opacity-custom {
   background: rgba(33, 37, 41, 0.85);
   position: relative;
@@ -276,3 +282,110 @@
   color: #fff;
   box-shadow: 0 4px 12px rgba(33, 37, 41, 0.15);
 }
+
+.myaside{
+   height: 100%;
+  width: 250px;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+
+}
+
+.myaside ul{
+  width: 100%;
+}
+.myaside ul li{
+  margin-bottom: 2rem;
+  list-style: none;
+  width: 100%;
+}
+
+.myaside ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+  width: 100%;
+}
+
+.myaside ul li a i{
+  padding: 0 0.5rem;
+}
+
+.myaside ul li :hover{
+  color: #ffc107 ;
+}
+
+.form-control input{
+  width: 100%;
+  outline: none;
+}
+
+.nav-item .dropdown-menu {
+  margin-bottom: 1px; 
+  display: none;
+  background-color: rgba(84, 86, 104, 0.397);
+  position: relative;
+  left: 7rem;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.nav-item.dropdown:hover {
+  .dropdown-menu {
+  display: block;
+  transition: .2s;
+  }
+}
+
+.dropdown-menu {
+
+}
+
+
+/* ----------- ALL CARS PAGE STYLES ----------- */
+    .car-card {
+      display: flex;
+      flex-direction: row;
+      border-radius: 1rem;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      background: #fff;
+      transition: transform 0.2s ease-in-out;
+    }
+    .car-card:hover {
+      transform: translateY(-4px);
+    }
+    .car-image {
+      width: 35%;
+      object-fit: cover;
+    }
+    .car-details {
+      padding: 1.5rem;
+      flex: 1;
+    }
+    .car-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .car-meta {
+      font-size: 0.95rem;
+      color: #6c757d;
+      margin-bottom: 0.3rem;
+    }
+    .car-price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #198754;
+      margin: 0.5rem 0;
+    }
+    .car-description {
+      font-size: 0.95rem;
+      color: #495057;
+      margin-bottom: 0.5rem;
+    }

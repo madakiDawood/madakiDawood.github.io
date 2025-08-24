@@ -361,3 +361,7 @@ body {
     .car-description {
       max-width: 350px;
     }
+
+    .table-responsive{
+      margin-left: 150px;
+    }
